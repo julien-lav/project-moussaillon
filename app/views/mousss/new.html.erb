@@ -2,3 +2,15 @@
 <p>Find me in app/views/mousss/new.html.erb</p>
 
 
+
+  <%= form_tag @mouss do |f| %>
+ 
+  <%= label_tag 'username', 'Username' %>
+  <%= text_field_tag 'username' %>
+ 
+  <%= label_tag 'email', 'Email' %>
+  <%= email_field_tag 'email' %>
+ 
+  <%= submit_tag "Add an nice user !"%>
+
+  <% end %>
