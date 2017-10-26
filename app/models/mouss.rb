@@ -1,0 +1,2 @@
+class Mouss < ApplicationRecord
+end

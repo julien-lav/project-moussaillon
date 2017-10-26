@@ -1,0 +1,2 @@
+module MousssHelper
+end
